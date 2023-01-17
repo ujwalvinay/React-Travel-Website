@@ -1,0 +1,122 @@
+header
+{
+   display: flex;
+    gap: 0rem;
+    align-items: center;
+    margin: 1rem 5rem;
+    justify-content: space-between;
+}
+.logo-img
+{
+    width: 180px;
+}
+.Navbar
+{
+    width: 50%;
+    margin-right: 5rem;
+}
+.Navbar-nav
+{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    align-items: center;
+}
+.Navbar-nav li
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Signup-btn
+{
+    padding: .5rem 1rem;
+    background-color: #7981EB;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100px;
+}
+.Signup-btn:hover
+{
+    background-color: white;
+    border: none;
+}
+
+
+
+/* hero Section styling */
+
+.Hero-space
+{
+    background-image: url('../images/backgroundHeader.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.hero
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.hero-img
+{
+    width: 50%;
+}
+.heroImage
+{
+    width: 90%;
+}
+.hero-text
+{
+    margin-left: 2rem;
+}
+/* hero text section */
+
+h4
+{
+    font-size: 20px;
+    color: #6973F8;
+}
+h1
+{
+    padding: 30px 0;
+    font-size: 75px;
+    font-family: 'Volkhov', serif;
+}
+p
+{
+    font-size: 16px;
+    width: 30rem;
+    line-height: 1.8;
+}
+
+
+.heroButtons
+{
+    display: flex;
+    gap: 3rem;
+}
+.heroButtons button
+{
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.findBtn
+{
+    padding: .75rem 1.5rem;
+    margin: 1.5rem 0;
+    background: #FFD996;
+    border-radius: 5px;
+}
+.playBtn
+{
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+.playbtnIcon
+{
+    width: 80px;
+    padding-top: 15px;
+}
