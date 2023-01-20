@@ -2,8 +2,6 @@ import React from "react";
 import Navbar from "./navbar";
 import "../styles/style.css";
 import "../styles/header-style.css";
-import heroImg from "../images/hero-img.png";
-import playButton from "../images/Play-button.png";
 function Header()
 {
     return (
@@ -24,11 +22,11 @@ function Header()
                     </p>
                     <div className="heroButtons">
                         <button className="findBtn">Find out more</button>
-                        <button className="playBtn"> <img src={playButton} alt="" className="playbtnIcon"/> Play Demo </button>
+                        <button className="playBtn"> <img src="../images/Play-button.png" alt="" className="playbtnIcon"/> Play Demo </button>
                     </div>
                 </div>
                 <div className="hero-img">
-                    <img src={heroImg} alt=""  className="heroImage" />
+                    <img src="../images/hero-img.png" alt=""  className="heroImage" />
                 </div>
             </div>
         </div>
