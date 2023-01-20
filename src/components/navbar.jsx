@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../images/logo.png";
 import "../styles/style.css"
 import "../styles/header-style.css";
 
@@ -8,7 +7,7 @@ function Navbar()
     return (
         <header>
             <div className="logo">
-                <img src={Logo} alt="" className="logo-img" />
+                <img src="../images/logo.png" alt="" className="logo-img" />
             </div>
             <nav className="Navbar">
                 <ul className="Navbar-nav">
