@@ -1,0 +1,66 @@
+
+/* CARD STYLING */
+
+.destination-card
+{
+    width: 250px;
+    text-align: left;
+    padding-bottom: 16px;
+            box-shadow: 0 12px 20px -18px black;
+}
+.destination-img-div
+{
+    width: 100%;
+}
+.destination-img
+{
+    width: 100%;
+    height: 280px;
+}
+.destination-text
+{
+    padding:10px 1rem;
+}
+.location-price-div
+{
+    display: flex;
+    padding: 6px 0;
+}
+#duration-p
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* DESTINATION SECTION STYLING */
+.destination-section
+{
+    text-align: center;
+    margin-top: 9rem;
+}
+h6
+{
+    font-size: 18px;
+    opacity: .7;
+    padding: 10px 0;
+}
+h2
+{
+    padding-bottom: 1rem ;
+    font-family: 'Volkhov', serif;
+    font-size: 32px;
+}
+.des-card-section
+{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin: 2rem 0;
+    background: url('../images/destination-bg.png');
+    background-repeat: no-repeat;
+    width: max-content;
+    background-position: right 3rem;
+    padding: 2rem 4rem;
+    margin: auto;
+}

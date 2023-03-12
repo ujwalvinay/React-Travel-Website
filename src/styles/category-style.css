@@ -1,0 +1,52 @@
+.category
+{
+    text-align: center;
+    margin: 3rem;
+}
+.category h4
+{
+    padding: 1rem 0;
+}
+.category h2
+{
+    padding-bottom: 1rem ;
+    font-family: 'Volkhov', serif;
+    font-size: 32px;
+}
+.categories
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.categoryCard
+{
+    width: 200px;
+    -webkit-box-shadow: 0px 9px 29px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 29px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 29px -8px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    padding: 1rem;
+}
+.category-icon
+{
+    width: 60px;
+    padding: 1rem 0;
+}
+.categoryCard h5
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.categoryCard h6
+{
+    width: 75%;
+    font-size: 12px;
+    padding: 1rem 0;
+    margin: auto;
+    font-weight: 400;
+}

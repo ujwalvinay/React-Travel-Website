@@ -1,0 +1,30 @@
+.testimonial-div
+{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 5rem 0;
+}
+.testimonial-h6
+{
+    font-size: 16px;
+}
+.testimonial-h2
+{
+    font-size: 40px;
+    width: 23rem;
+}
+.button-div
+{
+    display: flex;
+    gap: 1rem;
+    margin:3rem 1rem;
+}
+.testimonial-button
+{
+    width: 8px;
+    background: black;
+    height: 8px;
+    border-radius: 50%;
+    
+}
